@@ -1,8 +1,9 @@
 mountpoints:
   /:
-    url: "https://author-p<programId>-e<environmentId>.adobeaemcloud.com/bin/franklin.delivery/<githubOrg>/<repo>/main"
+    url: "https://author-p31104-e170504.adobeaemcloud.com/bin/franklin.delivery/abamy/citisignal-one/main"
     type: "markup"
     suffix: ".html"
+
 folders:
+  /products/plan/: /products/plan/default
   /products/: /products/default
-  
