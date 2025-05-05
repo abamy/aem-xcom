@@ -1,0 +1,16 @@
+{
+  "mappings": [
+    "/content/xcom/:/",
+    "/content/xcom/configuration:/.helix/config.json",
+    "/content/xcom/headers:/.helix/headers.json",
+    "/content/xcom/metadata:/metadata.json",
+    "/content/xcom/placeholders:/placeholders.json",
+    "/content/xcom/configs:/configs.json",
+    "/content/xcom/configs-dev:/configs-dev.json",
+    "/content/xcom/configs-stage:/configs-stage.json",
+    "/content/xcom.resource/enrichment/enrichment.json:/enrichment/enrichment.json"
+  ],
+  "includes": [
+    "/content/xcom/"
+  ]
+}
