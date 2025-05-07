@@ -1,16 +1,16 @@
 {
   "mappings": [
-    "/content/aem-xcom/:/",
-    "/content/aem-xcom/configuration:/.helix/config.json",
-    "/content/aem-xcom/headers:/.helix/headers.json",
-    "/content/aem-xcom/metadata:/metadata.json",
-    "/content/aem-xcom/placeholders:/placeholders.json",
-    "/content/aem-xcom/configs:/configs.json",
-    "/content/aem-xcom/configs-dev:/configs-dev.json",
-    "/content/aem-xcom/configs-stage:/configs-stage.json",
-    "/content/aem-xcom.resource/enrichment/enrichment.json:/enrichment/enrichment.json"
+    "/content/xcom/:/",
+    "/content/xcom/configuration:/.helix/config.json",
+    "/content/xcom/headers:/.helix/headers.json",
+    "/content/xcom/metadata:/metadata.json",
+    "/content/xcom/placeholders:/placeholders.json",
+    "/content/xcom/configs:/configs.json",
+    "/content/xcom/configs-dev:/configs-dev.json",
+    "/content/xcom/configs-stage:/configs-stage.json",
+    "/content/xcom.resource/enrichment/enrichment.json:/enrichment/enrichment.json"
   ],
   "includes": [
-    "/content/aem-xcom/"
+    "/content/xcom/"
   ]
 }
