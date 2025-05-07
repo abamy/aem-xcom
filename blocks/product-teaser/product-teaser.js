@@ -140,8 +140,8 @@ function renderProduct(product, config, block) {
 
 export default async function decorate(block) {
   const config = readBlockConfig(block);
-  config['details-button'] = !!(config['details-button'] || config['details-button'] === 'true');
-  config['cart-button'] = !!(config['cart-button'] || config['cart-button'] === 'true');
+  config['details-button'] = !!(config['details-button'] === true || config['details-button'] === 'true');
+  config['cart-button'] = !!(config['cart-button'] === true || config['cart-button'] === 'true');
 
   renderPlaceholder(config, block);
 

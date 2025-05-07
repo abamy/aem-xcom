@@ -13,8 +13,7 @@ import { decorateMain } from './scripts.js';
 
 window.xwalk = window.xwalk || {};
 window.xwalk.isAuthorEnv = true;
-window.xwalk.previewSku = '24-MB03';
-window.hlx.aemRoot = '/content/xwalk-commerce';
+window.xwalk.previewSku = 'ADB150';
 
 // set the filter for an UE editable
 function setUEFilter(element, filter) {
