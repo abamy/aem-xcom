@@ -3,7 +3,8 @@ import { initializers } from '@dropins/tools/initializer.js';
 import { initialize, setFetchGraphQlHeaders } from '@dropins/storefront-order/api.js';
 import { checkIsAuthenticated, getHeaders } from '../configs.js';
 import { initializeDropin } from './index.js';
-import { fetchPlaceholders } from '../aem.js';
+import { fetchPlaceholders } from '../commerce.js';
+import { rootLink } from '../scripts.js';
 
 import {
   CUSTOMER_ORDER_DETAILS_PATH,
@@ -28,7 +29,7 @@ await initializeDropin(async () => {
   const orderNumber = searchParams.get('orderNumber');
   const isTokenProvided = orderRef && orderRef.length > 20;
 
-  setFetchGraphQlHeaders(await getHeaders('order'));
+  setFetchGraphQlHeaders((prev) => ({ ...prev, ...getHeaders('order') }));
 
   const labels = await fetchPlaceholders();
   const langDefinitions = {
