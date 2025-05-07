@@ -5,8 +5,8 @@ This project boilerplate is for AEM Authoring with Edge Delivery Services (aka C
 https://experienceleague.adobe.com/developer/commerce/storefront/
 
 ## Environments
-- Preview: https://main--{repo}--{owner}.aem.page/
-- Live: https://main--{repo}--{owner}.aem.live/
+- Preview: https://main--aem-boilerplate-xcom--adobe-rnd.aem.page/
+- Live: https://main--aem-boilerplate-xcom--adobe-rnd.aem.live/
 
 ## Pre-requisites
 
@@ -56,7 +56,7 @@ npm run lint
 
 See also [Developer Tutorial](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/wysiwyg-authoring/edge-dev-getting-started)
 
-1. Create a new repository based on the `aem-boilerplate-xwalk-commerce` template 
+1. Create a new repository based on the `aem-boilerplate-xcom` template 
 2. Install all dependencies using `npm i`.
 3. Add the [AEM Code Sync GitHub App](https://github.com/apps/aem-code-sync) to the repository, so your code changes get synced with EDS.
 4. Create a new site in AEM using the [site template](https://github.com/adobe-rnd/aem-boilerplate-xcom/releases) provided with the boilerplate release
@@ -67,5 +67,5 @@ See also [Developer Tutorial](https://experienceleague.adobe.com/en/docs/experie
 
 ## Notes
 - some commerce blocks dont show the final output in UE but placeholders, e.g. account related blocks, enrichment. To see them in action you have to preview or publish the page.
-- folder mapping is used on EDS (publish) to map virtual product pages to a an existing page template (/products/default). if you open the the template page in UE, to be able to see the pdp block, one product has been [hardcoded](https://github.com/adobe-rnd/aem-boilerplate-xcom/blob/main/scripts/editor-support.js#L15) for now. Will be replaced with a product picker once available.
+- folder mapping is used on EDS (publish) to map virtual product pages to a an existing page template (/products/default). if you open the the template page in UE, to be able to see the pdp block, one product has been [hardcoded](https://github.com/adobe-rnd/aem-boilerplate-xcom/blob/main/scripts/editor-support.js#L15) for now.
 - It is [recommended](https://experienceleague.adobe.com/developer/commerce/storefront/seo/metadata/) uploading product metadata into Edge Delivery Services so that it can be rendered server-side on product detail pages, see `/products/default/metadata` spreadheet. There is a tool that can help you create this data, see [here](https://experienceleague.adobe.com/developer/commerce/storefront/seo/metadata/#generate-metadata).

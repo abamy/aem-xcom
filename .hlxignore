@@ -8,7 +8,8 @@ package-lock.json
 test/*
 postinstall.js
 build.mjs
-tools/picker/src/*
 cypress/
+tools/picker/src/*
 tools/pdp-metadata/*
 _*.json
+plugins/experimentation/documentation/images/*
