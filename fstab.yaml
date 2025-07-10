@@ -1,8 +1,7 @@
 mountpoints:
   /:
-    url: "https://author-p31104-e170504.adobeaemcloud.com/bin/franklin.delivery/abamy/aem-boilerplate-xcom/main"
+    url: "https://author-p31104-e170504.adobeaemcloud.com/bin/franklin.delivery/abamy/aem-xcom/main"
     type: "markup"
     suffix: ".html"
 folders:
   /products/: /products/default
-  
