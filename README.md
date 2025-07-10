@@ -2,11 +2,20 @@
 This project boilerplate is for AEM Authoring with Edge Delivery Services (aka Crosswalk) projects that integrate with Adobe Commerce.
 
 ## Documentation
-https://experienceleague.adobe.com/developer/commerce/storefront/
+
+Before using the boilerplate, we recommend you to go through the documentation on https://experienceleague.adobe.com/developer/commerce/storefront/ and more specifically:
+
+1. [Storefront Developer Tutorial](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/)
+1. [AEM Docs](https://www.aem.live/docs/)
+1. [AEM Developer Tutorial](https://www.aem.live/developer/tutorial)
+1. [The Anatomy of an AEM Project](https://www.aem.live/developer/anatomy-of-a-project)
+1. [Web Performance](https://www.aem.live/developer/keeping-it-100)
+1. [Markup, Sections, Blocks, and Auto Blocking](https://www.aem.live/developer/markup-sections-blocks)
+
 
 ## Environments
-- Preview: https://main--aem-boilerplate-xcom--adobe-rnd.aem.page/
-- Live: https://main--aem-boilerplate-xcom--adobe-rnd.aem.live/
+- Preview: https://main--{repo}--{owner}.aem.page/
+- Live: https://main--{repo}--{owner}.aem.live/
 
 ## Pre-requisites
 

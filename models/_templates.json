@@ -2,8 +2,7 @@
   "models": [
     {
       "id": "page-metadata",
-      "fields":
-      [
+      "fields": [
         {
           "component": "text",
           "name": "template",
@@ -15,8 +14,7 @@
     },
     {
       "id": "enrichment-metadata",
-      "fields":
-      [
+      "fields": [
         {
           "component": "text",
           "name": "template",
@@ -58,8 +56,7 @@
     },
     {
       "id": "pdp-metadata",
-      "fields":
-      [
+      "fields": [
         {
           "component": "text",
           "name": "template",
@@ -72,8 +69,7 @@
     },
     {
       "id": "order-details-metadata",
-      "fields":
-      [
+      "fields": [
         {
           "component": "text",
           "name": "template",
@@ -86,8 +82,7 @@
     },
     {
       "id": "plp-metadata",
-      "fields":
-      [
+      "fields": [
         {
           "component": "text",
           "name": "template",
@@ -100,8 +95,7 @@
     },
     {
       "id": "cart-metadata",
-      "fields":
-      [
+      "fields": [
         {
           "component": "text",
           "name": "template",
@@ -114,8 +108,7 @@
     },
     {
       "id": "mini-cart-metadata",
-      "fields":
-      [
+      "fields": [
         {
           "component": "text",
           "name": "template",
@@ -128,8 +121,7 @@
     },
     {
       "id": "checkout-metadata",
-      "fields":
-      [
+      "fields": [
         {
           "component": "text",
           "name": "template",
@@ -142,8 +134,7 @@
     },
     {
       "id": "search-order-metadata",
-      "fields":
-      [
+      "fields": [
         {
           "component": "text",
           "name": "template",
@@ -156,8 +147,7 @@
     },
     {
       "id": "search-metadata",
-      "fields":
-      [
+      "fields": [
         {
           "component": "text",
           "name": "template",
@@ -170,8 +160,7 @@
     },
     {
       "id": "login-metadata",
-      "fields":
-      [
+      "fields": [
         {
           "component": "text",
           "name": "template",
@@ -184,8 +173,7 @@
     },
     {
       "id": "forgot-password-metadata",
-      "fields":
-      [
+      "fields": [
         {
           "component": "text",
           "name": "template",
@@ -198,8 +186,7 @@
     },
     {
       "id": "create-account-metadata",
-      "fields":
-      [
+      "fields": [
         {
           "component": "text",
           "name": "template",
@@ -212,8 +199,7 @@
     },
     {
       "id": "account-metadata",
-      "fields":
-      [
+      "fields": [
         {
           "component": "text",
           "name": "template",
@@ -226,8 +212,7 @@
     },
     {
       "id": "orders-metadata",
-      "fields":
-      [
+      "fields": [
         {
           "component": "text",
           "name": "template",
@@ -240,8 +225,7 @@
     },
     {
       "id": "address-metadata",
-      "fields":
-      [
+      "fields": [
         {
           "component": "text",
           "name": "template",
@@ -254,8 +238,7 @@
     },
     {
       "id": "returns-metadata",
-      "fields":
-      [
+      "fields": [
         {
           "component": "text",
           "name": "template",
@@ -268,8 +251,7 @@
     },
     {
       "id": "account-order-details-metadata",
-      "fields":
-      [
+      "fields": [
         {
           "component": "text",
           "name": "template",
@@ -282,8 +264,7 @@
     },
     {
       "id": "order-status-metadata",
-      "fields":
-      [
+      "fields": [
         {
           "component": "text",
           "name": "template",
@@ -296,8 +277,7 @@
     },
     {
       "id": "return-details-metadata",
-      "fields":
-      [
+      "fields": [
         {
           "component": "text",
           "name": "template",
@@ -310,8 +290,7 @@
     },
     {
       "id": "create-return-metadata",
-      "fields":
-      [
+      "fields": [
         {
           "component": "text",
           "name": "template",
@@ -324,8 +303,7 @@
     },
     {
       "id": "confirm-account-metadata",
-      "fields":
-      [
+      "fields": [
         {
           "component": "text",
           "name": "template",
@@ -338,14 +316,26 @@
     },
     {
       "id": "create-password-metadata",
-      "fields":
-      [
+      "fields": [
         {
           "component": "text",
           "name": "template",
           "label": "Template",
           "valueType": "string",
           "value": "create-password",
+          "readOnly": true
+        }
+      ]
+    },
+    {
+      "id": "wishlist-metadata",
+      "fields": [
+        {
+          "component": "text",
+          "name": "template",
+          "label": "Template",
+          "valueType": "string",
+          "value": "wishlist",
           "readOnly": true
         }
       ]

@@ -282,6 +282,12 @@
         "name": "checkout-url",
         "label": "Checkout URL",
         "description": "Link to Checkout page"
+      },
+      {
+        "component": "boolean",
+        "name": "enable-updating-product",
+        "label": "Enable Updating Product",
+        "description": "Enable Updating Product"
       }
     ]
   },
@@ -304,6 +310,17 @@
         "name": "minified-view",
         "label": "Minified View",
         "value": false
+      }
+    ]
+  },
+  {
+    "id": "commerce-wishlist",
+    "fields": [
+      {
+        "component": "aem-content",
+        "name": "start-shopping-url",
+        "label": "Start Shopping URL",
+        "description": "Start Shopping URL"
       }
     ]
   },
@@ -425,35 +442,11 @@
     "id": "product-list-page",
     "fields": [
       {
-        "component": "number",
-        "name": "category",
-        "label": "Category",
-        "valueType": "number",
-        "value": 4,
-        "description": "Current Category ID"
-      },
-      {
         "component": "text",
         "name": "urlPath",
         "label": "URL Path",
         "valueType": "string",
-        "value": "gear",
         "description": "Current Category URL Path"
-      },
-      {
-        "component": "multiselect",
-        "name": "type",
-        "label": "Type",
-        "options": [
-          {
-            "name": "None",
-            "value": ""
-          },
-          {
-            "name": "Search",
-            "value": "search"
-          }
-        ]
       }
     ]
   },
@@ -462,9 +455,16 @@
     "fields": [
       {
         "component": "text",
-        "name": "typeId",
-        "label": "Type ID",
-        "description": "Type ID"
+        "name": "currentsku",
+        "label": "Current SKU",
+        "description": "Current SKU"
+      },
+      {
+        "component": "text",
+        "name": "recid",
+        "label": "Record ID",
+        "description": "Record ID",
+        "required": true
       }
     ]
   },
@@ -816,6 +816,19 @@
         "label": "Template",
         "valueType": "string",
         "value": "create-password",
+        "readOnly": true
+      }
+    ]
+  },
+  {
+    "id": "wishlist-metadata",
+    "fields": [
+      {
+        "component": "text",
+        "name": "template",
+        "label": "Template",
+        "valueType": "string",
+        "value": "wishlist",
         "readOnly": true
       }
     ]

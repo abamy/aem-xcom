@@ -41,7 +41,13 @@
           "name": "checkout-url",
           "label": "Checkout URL",
           "description": "Link to Checkout page"
-        } 
+        },
+        {
+          "component": "boolean",
+          "name": "enable-updating-product",
+          "label": "Enable Updating Product",
+          "description": "Enable Updating Product"
+        }
       ]
     }
   ],

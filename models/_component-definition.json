@@ -90,6 +90,9 @@
         },
         {
           "...": "../blocks/commerce-search-order/_*.json#/definitions"
+        },
+        {
+          "...": "../blocks/commerce-gift-options/_*.json#/definitions"
         }
       ]
     },
@@ -141,6 +144,15 @@
         },
         {
           "...": "../blocks/commerce-create-return/_*.json#/definitions"
+        }
+      ]
+    },
+    {
+      "title": "Wishlist",
+      "id": "wishlist",
+      "components": [
+        {
+          "...": "../blocks/commerce-wishlist/_*.json#/definitions"
         }
       ]
     }

@@ -1,5 +1,5 @@
-@media (width >= 900px) {
-    body.columns main > .section.commerce-account-sidebar-container {
+@media (min-width: 900px) {
+    body.columns main>.section.commerce-account-sidebar-container {
         max-width: var(--column-width);
     }
 }
@@ -24,7 +24,7 @@
     margin-right: var(--spacing-small);
 }
 
-.commerce-account-sidebar-item-icon > div {
+.commerce-account-sidebar-item-icon>div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,7 +52,7 @@
     margin-left: var(--spacing-small);
 }
 
-.commerce-account-sidebar-item-arrow > div {
+.commerce-account-sidebar-item-arrow>div {
     display: flex;
     align-items: center;
     justify-content: center;

@@ -121,6 +121,7 @@
       "commerce-shipping-status",
       "commerce-customer-details",
       "commerce-order-cost-summary",
+      "commerce-gift-options",
       "commerce-order-product-list",
       "commerce-order-returns",
       "product-teaser",
@@ -368,6 +369,20 @@
       "columns",
       "fragment",
       "commerce-create-password"
+    ]
+  },
+  {
+    "id": "wishlist-section",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title",
+      "hero",
+      "cards",
+      "columns",
+      "fragment",
+      "commerce-wishlist"
     ]
   },
   {
