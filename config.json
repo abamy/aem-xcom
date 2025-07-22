@@ -2,7 +2,7 @@
   "public": {
     "default": {
       "commerce-core-endpoint": "https://com842.adobedemo.com/graphql",
-      "commerce-endpoint": "https://com842.adobedemo.com/cs-graphql",
+      "commerce-endpoint": "https://com842.adobedemo.com/graphql",
       "headers": {
         "all": {
           "Store": "default"
