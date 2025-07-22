@@ -2,7 +2,7 @@
   "public": {
     "default": {
       "commerce-core-endpoint": "https://edge-sandbox-graph.adobe.io/api/60851ed0-6008-4efe-b0a9-321254415560/graphql",
-      "commerce-endpoint": "https://edge-sandbox-graph.adobe.io/api/60851ed0-6008-4efe-b0a9-321254415560/cs-graphql",
+      "commerce-endpoint": "https://edge-sandbox-graph.adobe.io/api/60851ed0-6008-4efe-b0a9-321254415560/graphql",
       "headers": {
         "all": {
           "Store": "default"
