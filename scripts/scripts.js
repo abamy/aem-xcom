@@ -50,7 +50,7 @@ const pluginContext = {
   getMetadata,
   loadCSS,
   loadScript,
-
+  sampleRUM,
   toCamelCase,
   toClassName,
 };
