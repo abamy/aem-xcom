@@ -1,29 +1,29 @@
 {
   "public": {
     "default": {
-      "commerce-core-endpoint": "https://www.aemshop.net/graphql",
-      "commerce-endpoint": "https://www.aemshop.net/cs-graphql",
+      "commerce-core-endpoint": "https://edge-sandbox-graph.adobe.io/api/60851ed0-6008-4efe-b0a9-321254415560/graphql",
+      "commerce-endpoint": "https://edge-sandbox-graph.adobe.io/api/60851ed0-6008-4efe-b0a9-321254415560/cs-graphql",
       "headers": {
         "all": {
           "Store": "default"
         },
         "cs": {
           "Magento-Customer-Group": "b6589fc6ab0dc82cf12099d1c2d40ab994e8410c",
-          "Magento-Store-Code": "main_website_store",
+          "Magento-Store-Code": "luma_b2c_store",
           "Magento-Store-View-Code": "default",
           "Magento-Website-Code": "base",
-          "x-api-key": "4dfa19c9fe6f4cccade55cc5b3da94f7",
-          "Magento-Environment-Id": "f38a0de0-764b-41fa-bd2c-5bc2f3c7b39a"
+          "x-api-key": "e38a320033f94cc7b3f657855e6df964",
+          "Magento-Environment-Id": "333f1893-f221-4b65-8aa4-28a685ceccab"
         }
       },
       "analytics": {
-        "base-currency-code": "USD",
+        "base-currency-code": "EUR",
         "environment": "Production",
-        "environment-id": "f38a0de0-764b-41fa-bd2c-5bc2f3c7b39a",
-        "store-code": "main_website_store",
+        "environment-id": "333f1893-f221-4b65-8aa4-28a685ceccab",
+        "store-code": "luma_b2c_store",
         "store-id": 1,
         "store-name": "Main Website Store",
-        "store-url": "https://www.aemshop.net",
+        "store-url": "https://main--aem-xcom--abamy.aem.live/",
         "store-view-code": "default",
         "store-view-id": 1,
         "store-view-name": "Default Store View",
