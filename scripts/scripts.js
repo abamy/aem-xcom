@@ -14,6 +14,7 @@ import {
   loadScript,
   toCamelCase,
   toClassName,
+  sampleRUM,
 } from './aem.js';
 import {
   loadCommerceEager,
