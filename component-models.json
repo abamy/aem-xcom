@@ -485,6 +485,12 @@
     "id": "product-list-page",
     "fields": [
       {
+        "component": "sku",
+        "valueType": "string",
+        "name": "sku",
+        "label": "SKU"
+      },
+      {
         "component": "text",
         "name": "urlPath",
         "label": "URL Path",
