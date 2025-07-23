@@ -1,5 +1,7 @@
 {
   "project": "AEM XWalk Boilerplate",
   "editUrlLabel": "AEM Editor",
-  "editUrlPattern": "{{contentSourceUrl}}{{pathname}}?cmd=open"
+  "editUrlPattern": "{{contentSourceUrl}}{{pathname}}?cmd=open",
+  "previewHost": "main--aem-xcom--abamy.aem.page",
+  "liveHost": "main--aem-xcom--abamy.aem.live"
 }
