@@ -521,6 +521,12 @@
     "id": "product-teaser",
     "fields": [
       {
+        "component": "sku",
+        "valueType": "string",
+        "name": "sku",
+        "label": "SKU"
+      },
+      {
         "component": "text",
         "name": "sku",
         "label": "SKU",
