@@ -191,7 +191,7 @@
     "id": "video",
     "fields": [
       {
-        "component": "reference",
+        "component": "aem-content",
         "valueType": "string",
         "name": "uri",
         "label": "Video"
