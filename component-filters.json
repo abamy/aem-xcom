@@ -24,8 +24,7 @@
       "fragment",
       "product-teaser",
       "product-recommendations",
-      "video",
-      "carousel"
+      "video"
     ]
   },
   {
@@ -406,12 +405,6 @@
       "image",
       "button",
       "title"
-    ]
-  },
-  {
-    "id": "carousel",
-    "components": [
-      "carousel-item"
     ]
   }
 ]
