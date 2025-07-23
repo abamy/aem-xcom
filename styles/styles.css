@@ -420,7 +420,7 @@ main>.section:first-of-type {
 /* section metadata */
 main .section.light,
 main .section.highlight {
-  background-color: var(--color-neutral-500);
+  background-color: var(--color-alert-500);
   margin: 0;
   padding: var(--spacing-xbig) 0;
 }
